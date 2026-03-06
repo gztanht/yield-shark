@@ -1,0 +1,50 @@
+{
+  "name": "yield-shark",
+  "version": "1.0.4",
+  "description": "🦈 YieldShark - 嗅到钱的味道！实时监控 50+ DeFi 平台稳定币收益率，像鲨鱼一样猎杀最高 APY",
+  "main": "scripts/monitor.mjs",
+  "type": "module",
+  "scripts": {
+    "monitor": "node scripts/monitor.mjs",
+    "monitor:usdc": "node scripts/monitor.mjs USDC",
+    "monitor:dai": "node scripts/monitor.mjs DAI",
+    "compare": "node scripts/compare.mjs",
+    "compare-tokens": "node scripts/compare-tokens.mjs",
+    "calculate": "node scripts/calculate.mjs",
+    "alert": "node scripts/alert.mjs",
+    "report": "node scripts/report.mjs",
+    "optimize": "node scripts/optimize.mjs",
+    "test:usdt": "node scripts/monitor.mjs USDT --limit 5",
+    "test:usdc": "node scripts/monitor.mjs USDC --limit 5",
+    "test:dai": "node scripts/monitor.mjs DAI --limit 5"
+  },
+  "keywords": [
+    "defi",
+    "yield",
+    "stablecoin",
+    "usdt",
+    "usdc",
+    "apy",
+    "aave",
+    "compound",
+    "finance",
+    "crypto",
+    "shark",
+    "hunter"
+  ],
+  "author": "@gztanht",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gztanht/yield-shark"
+  },
+  "homepage": "https://clawhub.com/skills/yield-shark",
+  "funding": {
+    "type": "crypto",
+    "usdt": "0x33f943e71c7b7c4e88802a68e62cca91dab65ad9",
+    "usdc": "0xcb5173e3f5c2e32265fbbcaec8d26d49bf290e44"
+  }
+}
