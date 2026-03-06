@@ -90,6 +90,8 @@ After sponsoring, contact @gztanht to unlock unlimited access! 🦈
 | `alert.mjs` | Yield alert system |
 | `report.mjs` | Generate detailed reports (JSON/Markdown) |
 | `optimize.mjs` | Get yield optimization suggestions |
+| `history.mjs` ✨ | APY history tracking & trends |
+| `card.mjs` | Shareable yield cards |
 
 ---
 
