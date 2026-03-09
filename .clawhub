@@ -1,0 +1,28 @@
+{
+  "name": "yield-shark",
+  "displayName": "🦈 YieldShark",
+  "version": "1.0.6",
+  "description": "DeFi 收益监控神器 - 多链多平台稳定币 APY 追踪，50+ 收益源实时比较，嗅到钱的味道",
+  "author": "@gztanht",
+  "license": "MIT",
+  "pricing": {
+    "model": "freemium",
+    "freeQuota": 5,
+    "freeQuotaPeriod": "daily",
+    "unlimitedPrice": "0.5",
+    "unlimitedCurrency": "USDT"
+  },
+  "category": "defi",
+  "tags": ["defi", "yield", "apy", "monitoring", "stablecoin", "ethereum", "bsc"],
+  "features": [
+    "实时 APY 监控",
+    "50+ DeFi 平台比较",
+    "收益历史追踪",
+    "价格警报",
+    "收益优化建议"
+  ],
+  "repository": "https://github.com/gztanht/yield-shark",
+  "homepage": "https://clawhub.com/skills/yield-shark",
+  "createdAt": "2026-03-06",
+  "updatedAt": "2026-03-09"
+}
